@@ -1,0 +1,19 @@
+{
+	"name": "pi-later",
+	"version": "0.1.0",
+	"description": "Deferred messages for pi: queue a prompt and deliver it when the agent is done",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"deferred",
+		"queue"
+	],
+	"license": "MIT",
+	"author": "Nicola Lamacchia",
+	"pi": {
+		"extensions": ["./extensions/later.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
